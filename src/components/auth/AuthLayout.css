@@ -1,0 +1,54 @@
+.AuthLayout {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* background-image: linear-gradient(79deg,  #bae0e6 0, rgb(107, 186, 206) 6.25%, #204e5e); */
+  background-image: linear-gradient(60deg, #CB997E, #DDBEA9, #FFE8D6);
+  /* color: white; */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 5rem;
+    border: 1px solid white;
+    margin: 1rem;
+    border-radius: 10px    
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input{
+    margin: 0.25rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  p{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0.25rem
+  }
+
+  h2{
+    color: rgb(68, 46, 46);
+  }
