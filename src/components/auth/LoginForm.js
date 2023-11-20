@@ -46,7 +46,8 @@ export const LoginForm = () => {
 
     // posting the data to the api
     try {
-      const res = await axios.post('http://localhost:3000/api/auth/login', payload);
+      // const res = await axios.post('http://localhost:3000/api/auth/login', payload);
+      const res = await axios.post('zenter your url>', payload);
       //alert("Success"); // /if the post request is successful gives an alert message.
       localStorage.setItem('token', res?.data?.token)
       navigation('/home') //if the post request is successful open the home page

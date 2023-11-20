@@ -55,7 +55,8 @@ export const RegisterForm = () => {
         }
         // posting the data to the api
         try {
-            await axios.post('http://localhost:3000/api/auth/register', payload)
+            // await axios.post('http://localhost:3000/api/auth/register', payload)
+            await axios.post('<enter your url>', payload)
             navigation('/login') //if the post request is successful open the login page
         } catch (error) {
             console.log(error);
