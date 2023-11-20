@@ -75,7 +75,7 @@ export const RegisterForm = () => {
             <hr></hr>
             </div>
             <label>
-                Kullanıcı Adı:
+                Username:
                 <input
                     value={fullName}
                     onChange={(e) => setFullname(e.target.value)}
@@ -93,7 +93,7 @@ export const RegisterForm = () => {
                 {emailError && <p>{emailError}</p>}
             </label>
             <label>
-                Şifre:
+                Password:
                 <input
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
