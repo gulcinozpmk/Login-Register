@@ -65,7 +65,7 @@ export const LoginForm = () => {
     <form className='form' onSubmit={(e)=>handleSubmit(e)}>
         <div>
             <h2>Login</h2>
-            <hr class="solid"></hr>
+            <hr></hr>
         </div>
 
         <label>

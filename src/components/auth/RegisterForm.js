@@ -71,7 +71,7 @@ export const RegisterForm = () => {
         <form onSubmit={(e) => handleSubmit(e)}>
             <div>
             <h2>Register</h2>
-            <hr class="solid"></hr>
+            <hr></hr>
             </div>
             <label>
                 Kullanıcı Adı:
